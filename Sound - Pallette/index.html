@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title> The Sound Palette</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="app">
+
+        <header class="header">
+            <img src="/The-sound-pallette-icon.jpg" class="logo" />
+
+            <div class="icon" data-title="Home">
+                <img src="/home.png" alt="Home icon" class="home">
+            </div>
+
+            <div class="search-box">
+                <img src="/searchh.png" alt="Search icon" class="search">
+                <input type="text" placeholder="Search music..." />
+            </div>
+
+            <button class="login-btn">Login</button>
+        </header>
+
+        <aside class="sidebar">
+            <!-- <div class="icon" data-title="Search">
+                     <img src="/searchh.png" alt="Search icon" class="search">
+                     </div> -->
+
+            <div class="icon" data-title="Library">
+                 <img src="/libraryy.png" alt="Library icon" class="library">
+            </div>
+            <div class="icon" data-title="Plus">
+                 <img src="/plus-icon.png" alt="Plus icon" class="plus">
+             </div>
+        </aside>
+
+
+        <main class="main">
+            <div class="playlist" id="playlist"> </div>
+
+        </main>
+
+    </div>
+
+    <audio class="audio"></audio> <canvas class="visual"></canvas>
+    <script src="data/songs.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
